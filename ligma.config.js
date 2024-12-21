@@ -1,14 +1,10 @@
 module.exports = {
-    dsa: ["LinearSearchList", "BinarySearchList", "TwoCrystalBalls"],
+    dsa: ["BubbleSort", "SinglyLinkedList", "Queue", "Stack"],
 };
 
 // "DFSOnBST",
 // "LRU",
-// "BubbleSort",
-// "SinglyLinkedList",
 // "DoublyLinkedList",
-// "Queue",
-// "Stack",
 // "ArrayList",
 // "MazeSolver",
 // "QuickSort",

@@ -13,6 +13,13 @@ export function test_list(list: List<number>): void {
     expect(list.removeAt(0)).toEqual(5);
     expect(list.removeAt(0)).toEqual(11);
     expect(list.length).toEqual(0);
+    list.append(12);
+    list.append(13);
+    list.append(9);
+    expect(list.removeAt(2)).toEqual(9);
+    expect(list.removeAt(0)).toEqual(12);
+    expect(list.removeAt(0)).toEqual(13);
+    expect(list.length).toEqual(0);
 
     list.prepend(5);
     list.prepend(7);
@@ -23,4 +30,6 @@ export function test_list(list: List<number>): void {
     expect(list.remove(9)).toEqual(9);
     expect(list.length).toEqual(2);
     expect(list.get(0)).toEqual(7);
+    list.insertAt(9, 1);
+    expect(list.get(1)).toEqual(9);
 }
