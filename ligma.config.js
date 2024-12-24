@@ -1,11 +1,10 @@
 module.exports = {
-    dsa: ["BubbleSort", "SinglyLinkedList", "Queue", "Stack"],
+    dsa: [],
 };
 
 // "DFSOnBST",
 // "LRU",
 // "DoublyLinkedList",
-// "ArrayList",
 // "MazeSolver",
 // "QuickSort",
 // "BTPreOrder",
